@@ -11,6 +11,16 @@ a {
     color: #BBBBBB;
 }
 
+button {
+    background-color: #3882F6;
+    border: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
 nav,
 .footer,
 .one {
@@ -33,4 +43,36 @@ nav .header {
 nav .right {
     display: flex;
     gap: 30px;
+}
+
+.one {
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.one .left {
+    height: auto;
+    width: 450px;
+}
+
+.one .left .Hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.one .left .Hero-sec {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one .left button {
+    margin-top: 8px;
+}
+
+.one .right{
+    background-color: #71717e;
+    height: 250px;
+    line-height: 255px;
+    text-align: center;
+    width: 600px;
 }
