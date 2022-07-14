@@ -99,7 +99,7 @@ nav .right {
 .one .right{
     background-color: #71717e;
     height: 250px;
-    line-height: 255px;
+    line-height: 250px;
     text-align: center;
     width: 600px;
 }
@@ -119,3 +119,22 @@ nav .right {
     color: #1F2937;
 }
 
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 130px 550px;
+}
+
+.three .up {
+    color: #1F2937;
+    font-size: 36px;
+    font-family: "light italic";
+    height: auto;
+}
+
+.three .down {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
