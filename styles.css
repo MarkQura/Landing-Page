@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+nav,
+.footer,
+.one {
+    display: flex;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    align-items: center;
+}
+
+nav {
+    padding: 10px 200px;
+    justify-content: space-between;
+}
+
+nav .header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .right {
+    display: flex;
+    gap: 30px;
+}
